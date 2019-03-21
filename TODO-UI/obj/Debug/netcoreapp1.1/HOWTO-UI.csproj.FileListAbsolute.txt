@@ -8,3 +8,14 @@ C:\Users\a.bakunovich\source\repos\TODO\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI
 C:\Users\a.bakunovich\source\repos\TODO\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.AssemblyInfo.cs
 C:\Users\a.bakunovich\source\repos\TODO\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.dll
 C:\Users\a.bakunovich\source\repos\TODO\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.pdb
+C:\Users\a.martsineuski\source\howto\TODO-UI\bin\Debug\netcoreapp1.1\HOWTO-UI.deps.json
+C:\Users\a.martsineuski\source\howto\TODO-UI\bin\Debug\netcoreapp1.1\HOWTO-UI.runtimeconfig.json
+C:\Users\a.martsineuski\source\howto\TODO-UI\bin\Debug\netcoreapp1.1\HOWTO-UI.runtimeconfig.dev.json
+C:\Users\a.martsineuski\source\howto\TODO-UI\bin\Debug\netcoreapp1.1\HOWTO-UI.dll
+C:\Users\a.martsineuski\source\howto\TODO-UI\bin\Debug\netcoreapp1.1\HOWTO-UI.pdb
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.csprojAssemblyReference.cache
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.csproj.CoreCompileInputs.cache
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.AssemblyInfoInputs.cache
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.AssemblyInfo.cs
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.dll
+C:\Users\a.martsineuski\source\howto\TODO-UI\obj\Debug\netcoreapp1.1\HOWTO-UI.pdb
