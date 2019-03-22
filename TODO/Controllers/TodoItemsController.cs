@@ -1,6 +1,8 @@
 ﻿using System;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using HOWTO.Abstractions;
 using Microsoft.AspNetCore.Mvc;
+using TODO.Models;
 
 namespace HOWTO.Controllers
 {
@@ -8,36 +10,23 @@ namespace HOWTO.Controllers
     [Route("api/todo-items")]
     public class TodoItemsController : Controller
     {
+        private readonly ITodoRepository _todoRepository;
+
+        public TodoItemsController(ITodoRepository todoRepository) => _todoRepository = todoRepository;
+
         [HttpGet]
-        public Task<IActionResult> Get()
-        {
-            throw new NotImplementedException();
-            return Task.FromResult((IActionResult) new EmptyResult());
-        }
+        public IEnumerable<ToDoModel> Get() => _todoRepository.GetAll();
 
         [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public ToDoModel Get(Guid id) => _todoRepository.GetById(id);
 
         [HttpPost]
-        public void Post([FromBody]string value)
-        {
-            throw new NotImplementedException();
-        }
+        public ToDoModel Post([FromBody]ToDoModel model) => _todoRepository.Create(model);
 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-            throw new NotImplementedException();
-        }
+        [HttpPut]
+        public ToDoModel Put([FromBody]ToDoModel model) => _todoRepository.Update(model);
 
-        // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Delete(Guid id) => _todoRepository.Delete(id);
     }
 }
