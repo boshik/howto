@@ -1,10 +1,7 @@
 import * as React from 'react';
 import * as Redux from 'redux';
-import * as Materialize from 'materialize';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 const {createStore, combineReducers} = Redux;
 const {Component, PropTypes} = React;
@@ -71,6 +68,8 @@ class TodoForm extends Component {
       text: this.refs.text.value.trim()
     });
     this.refs.text.value = '';
+    
+    alert('submit');
   }
   toggleNav = e => {
   	this.setState({
@@ -83,7 +82,7 @@ class TodoForm extends Component {
         <div className="input-field-wrap row">
         	<div className={(this.state.activeNav ? 'active ': '') + 'todo-menu'}>
           	<b className={!this.state.activeNav ? 'material-icons ': ''} onClick={this.toggleNav}>
-            	{!this.state.activeNav ? (<b style={{fontSize:'16px'}}>&#x2630;</b>): (<span>&times;</span>)}
+            	{!this.state.activeNav ? (<b style={{fontSize:'16px'}}>&#x2630;</b>): (<span style={{fontSize:'26px'}}>&times;</span>)}
             </b>
             <ul className='dropdown-content' onClick={this.toggleNav}>
               <li>
@@ -96,13 +95,13 @@ class TodoForm extends Component {
                 	<b className='material-icons text-red'><b style={{fontSize:'16px'}}>&#x2716;&nbsp;</b></b>  Remove all completed
                 </a>
               </li>
-              <li className='divider'></li>
+              {/* <li className='divider'></li>
               <li>
               	<a onClick={this.props.removeCompleteSheet}>
                 	<b className='material-icons text-red'><b style={{fontSize:'16px'}}>&#x2716;&nbsp;</b></b>
                   Remove This <strong>Sheet</strong>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <button className="waves-effect waves-teal btn-flat">
@@ -376,7 +375,7 @@ class Todos extends Component {
             />
           ) : (
       			<h2 onDoubleClick={() => this.setState({editTitle: true}) } >
-              {this.state.title || 'Untitled Sheet'} ({this.state.alltodos.length})
+              {this.state.title || 'TODO LIST'} ({this.state.alltodos.length})
             </h2>
 					)} 
           <div className='toggle-content' onClick={this.toggleContent}>
@@ -413,6 +412,8 @@ const todoReducer = combineReducers({
   filter: filterTodoReducer
 });
 const todoStore = createStore(todoReducer);
+
+//alert('load');
 
 [
   {id: -5, text: 'Hello', completed: true},
@@ -456,14 +457,14 @@ sheetStore.dispatch({
   sheet: <Todos todoStore={todoStore} key={sheetStore.key} sheetId={sheetStore.key} />
 });
 
-document.querySelector('.new-todo-sheet').addEventListener('click', e => {
-	e.preventDefault();
-  sheetStore.dispatch({
-    type: 'ADD_SHEET',
-    id: ++sheetStore.key,
-    sheet: <Todos todoStore={createStore(todoReducer)} key={sheetStore.key} sheetId={sheetStore.key} />
-  });
-});
+// document.querySelector('.new-todo-sheet').addEventListener('click', e => {
+// 	e.preventDefault();
+//   sheetStore.dispatch({
+//     type: 'ADD_SHEET',
+//     id: ++sheetStore.key,
+//     sheet: <Todos todoStore={createStore(todoReducer)} key={sheetStore.key} sheetId={sheetStore.key} />
+//   });
+// });
 
 
 
