@@ -1,0 +1,156 @@
+2019-04-29 14:22:53.720 +03:00 [INF] User profile is available. Using 'C:\Users\a.bakunovich\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-29 14:22:53.793 +03:00 [INF] Creating key "2dd7e316-02f3-422f-84ef-c65bb91ee92d" with creation date "2019-04-29T11:22:53.7842822+00:00", activation date "2019-04-29T11:22:53.7787612+00:00", and expiration date "2019-07-28T11:22:53.7787612+00:00".
+2019-04-29 14:22:53.852 +03:00 [INF] Writing data to file 'C:\Users\a.bakunovich\AppData\Local\ASP.NET\DataProtection-Keys\key-2dd7e316-02f3-422f-84ef-c65bb91ee92d.xml'.
+2019-04-29 14:22:55.860 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-04-29 14:22:56.188 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-04-29 14:22:56.373 +03:00 [INF] Starting type checking service...
+2019-04-29 14:22:56.375 +03:00 [INF] Using 1 worker with 2048MB memory limit
+2019-04-29 14:22:56.422 +03:00 [INF] Starting type checking service...
+2019-04-29 14:22:56.424 +03:00 [INF] Using 1 worker with 2048MB memory limit
+2019-04-29 14:22:57.236 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2019-04-29 14:22:57.314 +03:00 [INF] Executing endpoint 'ReactCore.Controllers.MainController.Index (ReactCore)'
+2019-04-29 14:22:57.351 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action ReactCore.Controllers.MainController.Index (ReactCore)
+2019-04-29 14:22:57.366 +03:00 [INF] Executing action method ReactCore.Controllers.MainController.Index (ReactCore) - Validation state: "Valid"
+2019-04-29 14:22:57.375 +03:00 [INF] Executed action method ReactCore.Controllers.MainController.Index (ReactCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.6449000000000003ms.
+2019-04-29 14:22:57.410 +03:00 [INF] Executing ViewResult, running view Index.
+2019-04-29 14:22:58.580 +03:00 [INF] Executed ViewResult - view Index executed in 1186.4007000000001ms.
+2019-04-29 14:22:58.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=ok1YjWMzS4ntjGr6lTV88q1WNIPQsat3xARp0VtkYTk  
+2019-04-29 14:22:58.629 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QHVeNfhVWMkhSP8Dw-tw9M2fX7c6MxQFAlDMAHI0uTU  
+2019-04-29 14:22:58.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=nFGC4Vn1f1fk2mMeMgAfCawwQKCnnzVGqbEYulGzg4M  
+2019-04-29 14:22:58.687 +03:00 [INF] Executed action ReactCore.Controllers.MainController.Index (ReactCore) in 1287.0943ms
+2019-04-29 14:22:58.703 +03:00 [INF] Executed endpoint 'ReactCore.Controllers.MainController.Index (ReactCore)'
+2019-04-29 14:22:58.752 +03:00 [INF] Request finished in 1496.3241ms 200 text/html; charset=utf-8
+2019-04-29 14:22:59.071 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=nFGC4Vn1f1fk2mMeMgAfCawwQKCnnzVGqbEYulGzg4M
+2019-04-29 14:22:59.079 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.js?v=QHVeNfhVWMkhSP8Dw-tw9M2fX7c6MxQFAlDMAHI0uTU
+2019-04-29 14:22:59.093 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.css?v=ok1YjWMzS4ntjGr6lTV88q1WNIPQsat3xARp0VtkYTk
+2019-04-29 14:23:01.640 +03:00 [INF] Node will restart because file changed: C:\Users\a.bakunovich\source\repos\ReactCore\ReactCore\ClientApp\dist\main-server.js
+2019-04-29 14:23:01.647 +03:00 [INF] Type checking in progress...
+2019-04-29 14:23:02.441 +03:00 [INF] Type checking in progress...
+2019-04-29 14:23:02.457 +03:00 [INF] webpack built 3b93e243114844b0be86 in 6079ms
+2019-04-29 14:23:02.473 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 3b93e243114844b0be86
+Version: webpack 4.29.6
+Time: 6079ms
+Built at: 04/29/2019 2:23:02 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.53 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-04-29 14:23:02.477 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-04-29 14:23:02.593 +03:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\a.bakunovich\source\repos\ReactCore\ReactCore\wwwroot\dist\vendor.css'
+2019-04-29 14:23:02.623 +03:00 [INF] Request finished in 3992.9852ms 200 text/css
+2019-04-29 14:23:02.828 +03:00 [INF] Request finished in 4211.4413ms 200 application/javascript; charset=UTF-8
+2019-04-29 14:23:03.030 +03:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\a.bakunovich\source\repos\ReactCore\ReactCore\wwwroot\dist\vendor.js'
+2019-04-29 14:23:03.036 +03:00 [INF] Request finished in 4421.7137ms 200 application/javascript
+2019-04-29 14:23:04.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2019-04-29 14:23:04.341 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/favicon.ico  
+2019-04-29 14:23:04.354 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\a.bakunovich\source\repos\ReactCore\ReactCore\wwwroot\favicon.ico'
+2019-04-29 14:23:04.358 +03:00 [INF] Request finished in 24.9899ms 200 image/x-icon
+2019-04-29 14:23:05.072 +03:00 [INF] No type errors found
+2019-04-29 14:23:05.079 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:23:05.088 +03:00 [INF] Time: 8651ms
+2019-04-29 14:23:05.170 +03:00 [INF] No type errors found
+2019-04-29 14:23:05.174 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:23:05.178 +03:00 [INF] Time: 8749ms
+2019-04-29 14:23:16.920 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64098/api/Account/Login application/json;charset=UTF-8 34
+2019-04-29 14:23:16.926 +03:00 [INF] Executing endpoint 'ReactCore.Controllers.AccountController.Login (ReactCore)'
+2019-04-29 14:23:16.942 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action ReactCore.Controllers.AccountController.Login (ReactCore)
+2019-04-29 14:23:16.978 +03:00 [INF] Executing action method ReactCore.Controllers.AccountController.Login (ReactCore) with arguments (["ReactCore.Models.LoginModel"]) - Validation state: "Valid"
+2019-04-29 14:23:16.985 +03:00 [INF] Executed action method ReactCore.Controllers.AccountController.Login (ReactCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3.1713ms.
+2019-04-29 14:23:16.989 +03:00 [INF] Executing JsonResult, writing value of type 'ReactCore.Infrastructure.Result`1[[ReactCore.Models.ServiceUser, ReactCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-04-29 14:23:16.994 +03:00 [INF] Executed action ReactCore.Controllers.AccountController.Login (ReactCore) in 49.406000000000006ms
+2019-04-29 14:23:16.996 +03:00 [INF] Executed endpoint 'ReactCore.Controllers.AccountController.Login (ReactCore)'
+2019-04-29 14:23:16.999 +03:00 [INF] Request finished in 79.0738ms 200 application/json; charset=utf-8
+2019-04-29 14:25:00.209 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/api/Person/Search?term=  
+2019-04-29 14:25:00.215 +03:00 [INF] Executing endpoint 'ReactCore.Controllers.PersonController.Search (ReactCore)'
+2019-04-29 14:25:00.220 +03:00 [INF] Route matched with {action = "Search", controller = "Person"}. Executing action ReactCore.Controllers.PersonController.Search (ReactCore)
+2019-04-29 14:25:00.226 +03:00 [INF] Executing action method ReactCore.Controllers.PersonController.Search (ReactCore) with arguments ([""]) - Validation state: "Valid"
+2019-04-29 14:25:00.231 +03:00 [INF] Executed action method ReactCore.Controllers.PersonController.Search (ReactCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.1971ms.
+2019-04-29 14:25:00.234 +03:00 [INF] Executing JsonResult, writing value of type 'ReactCore.Infrastructure.Result`1[[System.Collections.Generic.List`1[[ReactCore.Models.PersonModel, ReactCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-04-29 14:25:00.241 +03:00 [INF] Executed action ReactCore.Controllers.PersonController.Search (ReactCore) in 18.4983ms
+2019-04-29 14:25:00.245 +03:00 [INF] Executed endpoint 'ReactCore.Controllers.PersonController.Search (ReactCore)'
+2019-04-29 14:25:00.252 +03:00 [INF] Request finished in 38.0922ms 200 application/json; charset=utf-8
+2019-04-29 14:28:14.241 +03:00 [INF] User profile is available. Using 'C:\Users\a.bakunovich\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-04-29 14:28:16.168 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-04-29 14:28:16.465 +03:00 [INF] [36m=== Webpack compilation mode: development ===[0m
+2019-04-29 14:28:16.642 +03:00 [INF] Starting type checking service...
+2019-04-29 14:28:16.644 +03:00 [INF] Using 1 worker with 2048MB memory limit
+2019-04-29 14:28:16.688 +03:00 [INF] Starting type checking service...
+2019-04-29 14:28:16.690 +03:00 [INF] Using 1 worker with 2048MB memory limit
+2019-04-29 14:28:17.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2019-04-29 14:28:17.340 +03:00 [INF] Executing endpoint 'ReactCore.Controllers.MainController.Index (ReactCore)'
+2019-04-29 14:28:17.362 +03:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action ReactCore.Controllers.MainController.Index (ReactCore)
+2019-04-29 14:28:17.378 +03:00 [INF] Executing action method ReactCore.Controllers.MainController.Index (ReactCore) - Validation state: "Valid"
+2019-04-29 14:28:17.393 +03:00 [INF] Executed action method ReactCore.Controllers.MainController.Index (ReactCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.4105000000000003ms.
+2019-04-29 14:28:17.427 +03:00 [INF] Executing ViewResult, running view Index.
+2019-04-29 14:28:18.448 +03:00 [INF] Executed ViewResult - view Index executed in 1036.0779ms.
+2019-04-29 14:28:18.481 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QHVeNfhVWMkhSP8Dw-tw9M2fX7c6MxQFAlDMAHI0uTU  
+2019-04-29 14:28:18.489 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=ok1YjWMzS4ntjGr6lTV88q1WNIPQsat3xARp0VtkYTk  
+2019-04-29 14:28:18.497 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=jtQGplrsXVrvKFMD8K6qYd7YDP2lYqE7ddpddfLN1NA  
+2019-04-29 14:28:18.507 +03:00 [INF] Executed action ReactCore.Controllers.MainController.Index (ReactCore) in 1141.972ms
+2019-04-29 14:28:18.512 +03:00 [INF] Executed endpoint 'ReactCore.Controllers.MainController.Index (ReactCore)'
+2019-04-29 14:28:18.573 +03:00 [INF] Request finished in 1301.8609ms 200 text/html; charset=utf-8
+2019-04-29 14:28:19.190 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/main-client.js?v=jtQGplrsXVrvKFMD8K6qYd7YDP2lYqE7ddpddfLN1NA
+2019-04-29 14:28:19.194 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.css?v=ok1YjWMzS4ntjGr6lTV88q1WNIPQsat3xARp0VtkYTk
+2019-04-29 14:28:19.197 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: wait until bundle finished: /dist/vendor.js?v=QHVeNfhVWMkhSP8Dw-tw9M2fX7c6MxQFAlDMAHI0uTU
+2019-04-29 14:28:21.668 +03:00 [INF] Node will restart because file changed: C:\Users\a.bakunovich\source\repos\ReactCore\ReactCore\ClientApp\dist\main-server.js
+2019-04-29 14:28:21.673 +03:00 [INF] Type checking in progress...
+2019-04-29 14:28:22.498 +03:00 [INF] Type checking in progress...
+2019-04-29 14:28:22.513 +03:00 [INF] webpack built 3b02f04108d6c01edf0c in 5863ms
+2019-04-29 14:28:22.530 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: 3b02f04108d6c01edf0c
+Version: webpack 4.29.6
+Time: 5863ms
+Built at: 04/29/2019 2:28:22 PM
+             Asset      Size       Chunks                    Chunk Names
+    main-client.js  3.53 MiB  main-client  [emitted]  [big]  main-client
+main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2019-04-29 14:28:22.534 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-04-29 14:28:22.600 +03:00 [INF] The file /dist/vendor.js was not modified
+2019-04-29 14:28:22.602 +03:00 [INF] The file /dist/vendor.css was not modified
+2019-04-29 14:28:22.626 +03:00 [INF] Request finished in 4137.9372ms 304 application/javascript
+2019-04-29 14:28:22.630 +03:00 [INF] Request finished in 4135.1429ms 304 text/css
+2019-04-29 14:28:22.824 +03:00 [INF] Request finished in 4339.1799ms 200 application/javascript; charset=UTF-8
+2019-04-29 14:28:23.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2019-04-29 14:28:24.523 +03:00 [INF] No type errors found
+2019-04-29 14:28:24.526 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:28:24.534 +03:00 [INF] Time: 7819ms
+2019-04-29 14:28:24.588 +03:00 [INF] No type errors found
+2019-04-29 14:28:24.590 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:28:24.592 +03:00 [INF] Time: 7951ms
+2019-04-29 14:28:25.194 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:64098/api/Account/Login application/json;charset=UTF-8 34
+2019-04-29 14:28:25.207 +03:00 [INF] Executing endpoint 'ReactCore.Controllers.AccountController.Login (ReactCore)'
+2019-04-29 14:28:25.226 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action ReactCore.Controllers.AccountController.Login (ReactCore)
+2019-04-29 14:28:25.264 +03:00 [INF] Executing action method ReactCore.Controllers.AccountController.Login (ReactCore) with arguments (["ReactCore.Models.LoginModel"]) - Validation state: "Valid"
+2019-04-29 14:28:25.269 +03:00 [INF] Executed action method ReactCore.Controllers.AccountController.Login (ReactCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.9579000000000002ms.
+2019-04-29 14:28:25.273 +03:00 [INF] Executing JsonResult, writing value of type 'ReactCore.Infrastructure.Result`1[[ReactCore.Models.ServiceUser, ReactCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-04-29 14:28:25.280 +03:00 [INF] Executed action ReactCore.Controllers.AccountController.Login (ReactCore) in 51.688300000000005ms
+2019-04-29 14:28:25.282 +03:00 [INF] Executed endpoint 'ReactCore.Controllers.AccountController.Login (ReactCore)'
+2019-04-29 14:28:25.285 +03:00 [INF] Request finished in 91.4477ms 200 application/json; charset=utf-8
+2019-04-29 14:29:37.708 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiling...
+2019-04-29 14:29:37.711 +03:00 [INF] webpack building...
+2019-04-29 14:29:38.458 +03:00 [INF] Type checking in progress...
+2019-04-29 14:29:38.466 +03:00 [INF] webpack built b35a0de5b1441fee84d0 in 553ms
+2019-04-29 14:29:38.473 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Hash: b35a0de5b1441fee84d0
+Version: webpack 4.29.6
+Time: 553ms
+Built at: 04/29/2019 2:29:38 PM
+                                             Asset       Size       Chunks                    Chunk Names
+              3b02f04108d6c01edf0c.hot-update.json   53 bytes               [emitted]         
+    main-client.3b02f04108d6c01edf0c.hot-update.js   15.4 KiB  main-client  [emitted]         main-client
+main-client.3b02f04108d6c01edf0c.hot-update.js.map  123 bytes  main-client  [emitted]         main-client
+                                    main-client.js   3.53 MiB  main-client  [emitted]  [big]  main-client
+                                main-client.js.map   29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.3b02f04108d6c01edf0c.hot-update.js main-client.js.map main-client.3b02f04108d6c01edf0c.hot-update.js.map
+2019-04-29 14:29:38.477 +03:00 [INF] [34mi[39m [90mя╜вwdmя╜г[39m: Compiled successfully.
+2019-04-29 14:29:38.480 +03:00 [INF] No type errors found
+2019-04-29 14:29:38.483 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:29:38.487 +03:00 [INF] Time: 562ms
+2019-04-29 14:29:38.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/3b02f04108d6c01edf0c.hot-update.json  
+2019-04-29 14:29:38.533 +03:00 [INF] Request finished in 39.7828ms 200 application/json; charset=UTF-8
+2019-04-29 14:29:38.539 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.3b02f04108d6c01edf0c.hot-update.js  
+2019-04-29 14:29:38.542 +03:00 [INF] No type errors found
+2019-04-29 14:29:38.545 +03:00 [INF] Version: typescript 3.3.3333
+2019-04-29 14:29:38.547 +03:00 [INF] Time: 569ms
+2019-04-29 14:29:38.551 +03:00 [INF] Request finished in 12.3588ms 200 application/javascript; charset=UTF-8
+2019-04-29 14:29:38.571 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.3b02f04108d6c01edf0c.hot-update.js.map  
+2019-04-29 14:29:38.575 +03:00 [INF] Request finished in 3.4522ms 200 application/json; charset=UTF-8
